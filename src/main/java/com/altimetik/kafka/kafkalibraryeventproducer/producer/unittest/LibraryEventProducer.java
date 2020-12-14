@@ -1,4 +1,4 @@
-package com.altimetik.kafka.kafkalibraryeventproducer.producer;
+package com.altimetik.kafka.kafkalibraryeventproducer.producer.unittest;
 
 
 import com.altimetik.kafka.kafkalibraryeventproducer.domain.LibraryEvent;

@@ -1,9 +1,8 @@
 package com.altimetik.kafka.kafkalibraryeventproducer.domain;
 
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import javax.validation.constraints.NotNull;
 
 @Data
 @AllArgsConstructor
@@ -12,5 +11,6 @@ import lombok.NoArgsConstructor;
 public class LibraryEvent {
     private Integer libraryEventId;
     private LibraryEventType libraryEventType;
+    @NotNull
     private Book book;
 }
